@@ -28,7 +28,7 @@ The functionality of each part of the previous command is explained in the quest
 
 ## Experimental results:
 
-Matrix A:
+**Matrix A:**
 
 1.69 2.30 2.77 1.76 1.09 
 
@@ -41,7 +41,7 @@ Matrix A:
 1.27 0.95 2.25 0.09 0.74
 
 
-Result of A x A:
+**Result of A x A:**
 
 14.82 20.38 18.09 11.34 11.63
 
@@ -78,9 +78,10 @@ Time taken for 2048x2048 matrix: 139.657000 seconds
 
 Time taken for 4096x4096 matrix: 1915.101000 seconds
 
-Total time taken 2068.076000 seconds
+**Total time taken 2068.076000 seconds**
 
-**Profile the scripts to determine what parts take up the most amount of time. Are their parts of your code that are impacted by the size of n? Any optimization strategies?**
+Profile the scripts to determine what parts take up the most amount of time. Are their parts of your code that are impacted by the size of n? Any optimization strategies?
+
 In my code, the "matrix_multiply" matrix takes up the most amount of time and obviously, increasing the size of n has a considerable impact on the running time. 
 
 The time complexity of the matrix_multiply function is determined by its nested loops. Thus, the time complexity of the function is cubic, O(n^3).
