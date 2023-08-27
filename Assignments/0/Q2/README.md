@@ -25,14 +25,14 @@ The files for this assignments are:
 
 ## Experimental results:
 
-Estimated value of Pi: 3.152000
+**Estimated value of Pi: 3.152000**
 
-Percentage error: 0.331276%
+**Percentage error: 0.331276%**
 
 ## Profile the scripts to determine what parts take up the most amount of time. Are their parts of your code that are impacted by the size of n? Any optimization strategies?
-In my code, the "matrix_multiply" matrix takes up the most amount of time and obviously, increasing the size of n has a considerable impact on the running time. 
+In my code, the "sqrt(x * x + y * y)" operation takes up the most amount of time and obviously, increasing the size of n has a considerable impact on the running time. 
 
-The time complexity of the matrix_multiply function is determined by its nested loops. Thus, the time complexity of the function is cubic, O(n^3).
+The time complexity of the code is O(n), as it iterates n times to generate random points and do the math. This is directly influenced by the value of n, which means the larger n, the more time the code will take to run.
 
-One optimization strategy that came into my mind is dividing the matrices into smaller blocks and then multiplying these blocks and maybe applying parallelization techniques.
+One optimization strategy could be avoiding "sqrt(x * x + y * y)" operation by using more creative and less time-consuming approaches.
 
