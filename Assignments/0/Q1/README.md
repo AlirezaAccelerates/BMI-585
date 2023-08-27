@@ -2,9 +2,13 @@
 
 ## Matrix Multiplication
 •	Create a random n x n matrix  A
+
 •	Multiply A x A
+
 •	Give user the ability to specify the size of the matrix as an input parameter (-n 3)
+
 •	Give user the option to display the input and product (-display)
+
 •	Display how long it takes to run this on a
     2x2, 4x4, 8x8, 16x16…4096x4096 (-benchmark)
 
