@@ -80,7 +80,7 @@ Time taken for 4096x4096 matrix: 1915.101000 seconds
 
 Total time taken 2068.076000 seconds
 
-## Profile the scripts to determine what parts take up the most amount of time. Are their parts of your code that are impacted by the size of n? Any optimization strategies?
+**Profile the scripts to determine what parts take up the most amount of time. Are their parts of your code that are impacted by the size of n? Any optimization strategies?**
 In my code, the "matrix_multiply" matrix takes up the most amount of time and obviously, increasing the size of n has a considerable impact on the running time. 
 
 The time complexity of the matrix_multiply function is determined by its nested loops. Thus, the time complexity of the function is cubic, O(n^3).
