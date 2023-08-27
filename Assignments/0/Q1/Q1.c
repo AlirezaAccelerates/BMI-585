@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include <string.h>
+#include<string.h>
 #include<time.h>
 
 // Matrices Multiplication
@@ -108,7 +108,7 @@ int main(int argc, char *argv[]){
             free(A);
             free(C);
         }
-        printf("Total time taken %f", total_time);
+        printf("Total time taken %f seconds\n", total_time);
     }
 
     return 0;
