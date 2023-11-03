@@ -1,0 +1,1 @@
+gcc -fopenmp -std=c99 -O1 q4.c -o q4
